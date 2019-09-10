@@ -52,19 +52,9 @@ VS code 配置Python可参考以下链接：[https://www.cnblogs.com/shine-lee/p
 通过地址clone到本地（如下图）
 >![](http://bed.thunisoft.com:9000/ibed/2019/09/10/73ca91e0b5324ad19e2801db02a67e7f.png)
 
-然后再VSCode中打开项目，添加文件，尝试第一次提交
->![](http://bed.thunisoft.com:9000/ibed/2019/09/10/1e570092302c442aa08b21230d07548e.gif)
+然后再VSCode中打开项目，添加文件，尝试提交
 
->这里就出现了一个问题，发现github仓库中并没有提交的代码，排查可能是之前git clone时出现的警告，所以做了如下操作：
->
-    cd sjzhpt_port/  
-    git remote add origin git@github.com:miaoqikong/sjzhpt_port.git
-    git push -u origin master
 
->![](http://bed.thunisoft.com:9000/ibed/2019/09/10/d7761124346f45e2aeb9a3bfa710a21d.png)
->
->然后再次刷新页面，就看到了提交的文件
->![](http://bed.thunisoft.com:9000/ibed/2019/09/10/86dfd483b55d4624a579667b70481f72.png)
 
 
 ## 框架搭建
